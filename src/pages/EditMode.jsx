@@ -182,7 +182,7 @@ export default function EditMode() {
                       {videoFile ? videoFile.name : "Select Video"}
                     </span>
                   </div>
-                  <input type="file" accept="video/mp4" className="hidden" onChange={(e) => setVideoFile(e.target.files[0])} />
+                  <input type="file" accept="video/*" className="hidden" onChange={(e) => setVideoFile(e.target.files[0])} />
                 </label>
               </div>
             </div>
