@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+// Changed from BrowserRouter to HashRouter for GitHub Pages compatibility
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Profiles from './pages/Profiles';
 import Dashboard from './pages/Dashboard';
 import EditMode from './pages/EditMode';
